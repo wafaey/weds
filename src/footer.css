@@ -1,0 +1,141 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+.main {
+	margin: 4%;
+	font-size: 24px;
+	line-height: 1.25;
+	text-align: center;
+	color: #000000;
+	text-transform: uppercase;
+	font-weight: 900;
+}
+footer {
+	bottom: 0;
+}
+.footer-card .footer-cardleft h1,
+.footer-card .footer-cardcenter h1,
+.footer-card .footer-cardright h1 {
+	text-transform: uppercase;
+	margin-bottom: 7px;
+	font-size: 18px;
+	font-weight: 900;
+	line-height: 1.39;
+	letter-spacing: 0.7px;
+}
+.footer-card {
+	display: inline-block;
+	margin: 0 10% 0 10%;
+	background-color: white;
+	color: black;
+	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+	box-sizing: border-box;
+	width: 85%;
+	text-align: left;
+	font: 21pt 16px sans-serif;
+}
+.footer-card .footer-cardleft,
+.footer-card .footer-cardcenter,
+.footer-card .footer-cardright {
+	display: inline-block;
+	width: 29%;
+	margin: 2% 2% 2% 2%;
+	vertical-align: top;
+}
+.footer-card .footer-cardleftimg,
+.footer-card .footer-cardcenterimg,
+.footer-card .footer-cardrightimg {
+	float: left;
+	width: 35%;
+	height: 30%;
+	margin-top: 16%;
+}
+.footer-card .footer-cardleftup,
+.footer-card .footer-cardcenterup,
+.footer-card .footer-cardrightup,
+.footer-card .footer-cardleftdown,
+.footer-card .footer-cardcenterdown,
+.footer-card .footer-cardrightdown {
+	display: inline-block;
+	height: 30%;
+	width: 65%;
+}
+.footer-distributed {
+	background-color: black;
+	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+	box-sizing: border-box;
+	width: 100%;
+	text-align: left;
+	font: bold 16px sans-serif;
+}
+
+.footer-distributed .footer-left,
+.footer-distributed .footer-center,
+.footer-distributed .footer-right {
+	display: inline-block;
+}
+
+.footer-distributed .footer-left {
+	width: 40%;
+}
+
+.footer-distributed h2 {
+	color: white;
+	margin: 0;
+	font-size: x-small;
+}
+
+.footer-distributed h2 span {
+	color: #5383d3;
+}
+
+.footer-distributed .footer-links {
+	color: white;
+	margin: 20px 0 12px;
+	padding: 0;
+}
+
+.company-logo {
+	color: white;
+	margin: 2%;
+}
+
+.footer-distributed .footer-center {
+	width: 35%;
+}
+
+.footer-distributed .footer-right {
+	width: 20%;
+	text-align: right;
+}
+
+@media (max-width: 880px) {
+	.footer-card {
+		font: 21pt 14px sans-serif;
+	}
+	.footer-distributed {
+		font: bold 14px sans-serif;
+	}
+	.footer-card .footer-cardleft,
+	.footer-card .footer-cardcenter,
+	.footer-card .footer-cardright {
+		display: block;
+		width: 100%;
+		margin-bottom: 40px;
+		text-align: center;
+	}
+
+	.footer-distributed .footer-left,
+	.footer-distributed .footer-center,
+	.footer-distributed .footer-right {
+		display: block;
+		width: 100%;
+		margin-bottom: 40px;
+		text-align: center;
+	}
+	.main {
+		line-height: normal;
+		font-size: auto;
+	}
+}

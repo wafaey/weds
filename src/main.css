@@ -1,0 +1,178 @@
+.wedding-breadcrumb {
+	width: 92%;
+	max-width: 1100px;
+	margin: 2% auto 0;
+	display: flex;
+	margin-bottom: 20px;
+	align-items: center;
+	flex-wrap: wrap;
+}
+.wedding-breadcrumb .wedding-breadcrumb-link {
+	line-height: 30px;
+	height: 30px;
+	margin: 0;
+	text-transform: uppercase;
+	display: inline-block;
+	font-size: 18px;
+	font-weight: 900;
+	color: #010101;
+}
+.wedding-breadcrumb i {
+	line-height: 30px;
+	height: 30px;
+	font-size: 30px;
+	font-weight: bold;
+	margin: 0 7.5px;
+}
+.wedding-breadcrumb .wedding-breadcrumb-link {
+	line-height: 30px;
+	height: 30px;
+	margin: 0;
+	text-transform: uppercase;
+	display: inline-block;
+	font-size: 18px;
+	font-weight: 900;
+	color: #010101;
+}
+.wedding-breadcrumb .wedding-breadcrumb-link a {
+	color: #008174;
+	transition: all ease 0.1s;
+	text-decoration: none;
+}
+.fa-angle-right:before {
+	content: "";
+}
+.fa,
+.fas {
+	font-family: "Font Awesome 5 Free";
+	font-weight: 900;
+}
+.photos-wrapper {
+	width: 90%;
+	display: flex;
+	flex-direction: row;
+	max-width: 1100px;
+	margin: 30px auto 0;
+}
+.filters-container {
+	display: flex;
+	flex-direction: column;
+	width: 25%;
+	position: relative;
+	box-sizing: border-box;
+	margin-right: 25px;
+}
+.photos-container {
+	width: 70%;
+	height: 60%;
+}
+.filters-radio {
+	margin-top: 15px;
+	padding-left: 6px;
+	display: flex;
+	flex-direction: column;
+}
+.filters-actions {
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+	margin-bottom: 10px;
+}
+.vendors-search-inputs.posts {
+	margin: 20px 0;
+}
+.filters-actions-clear {
+	background-color: #fff;
+	color: #000;
+	border: solid 1px #000;
+	padding-right: 10px;
+	padding-left: 10px;
+	height: 21px;
+	text-decoration: none;
+}
+.filters-actions button {
+	vertical-align: middle;
+	padding: 0;
+	border: solid 1px #000;
+	width: 55px;
+	height: 21px;
+	margin-left: 3px;
+	font-size: 12px;
+	text-align: center;
+}
+.filters-actions-apply {
+	font-family: sans-serif;
+	background-color: #000;
+	color: #fff;
+}
+.vendors-search-inputs {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+.vendors-search-inputs.posts input[type="text"] {
+	width: 100%;
+	border: 1px solid black;
+	padding: 5px;
+}
+.top {
+	display: flex;
+	width: 100%;
+}
+.bottom {
+	display: flex;
+	width: 100%;
+}
+.middle {
+	display: flex;
+	width: 100%;
+}
+.pagination > li {
+	display: inline;
+}
+.pagination-block .pagination {
+	margin-bottom: 0;
+}
+.pagination {
+	display: inline-block;
+	padding-left: 0;
+	margin: 20px 0;
+	border-radius: 4px;
+}
+.pagination-block {
+	display: block;
+	text-align: center;
+}
+.pagination-block .pagination .next_page a,
+.pagination-block .pagination .previous_page a,
+.pagination-block .pagination li a {
+	color: #024d4c;
+}
+.pagination-block .pagination .next_page > a:hover,
+.pagination-block .pagination .previous_page > a:hover,
+.pagination-block .pagination li > a:hover {
+	color: gray;
+}
+.pagination > li > a,
+.pagination > li > span {
+	position: relative;
+	float: left;
+	padding: 6px 12px;
+	line-height: 1.428571429;
+	text-decoration: none;
+	color: #337ab7;
+	background-color: #fff;
+	border: 1px solid #ddd;
+	margin-left: -1px;
+}
+.pagination-block .pagination > .active > a,
+.pagination-block .pagination > .active > a:focus,
+.pagination-block .pagination > .active > a:hover,
+.pagination-block .pagination > .active > span,
+.pagination-block .pagination > .active > span:focus,
+.pagination-block .pagination > .active > span:hover {
+	background-color: #024d4c;
+	border-color: #024d4c;
+	color: #fff;
+}
