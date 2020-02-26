@@ -1,0 +1,5 @@
+{
+	"/": "/images",
+	"/:category_id": "/categories?category_id=:category_id",
+	"/:id": "/images?id=:id"
+}
